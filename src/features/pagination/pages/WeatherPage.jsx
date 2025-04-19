@@ -33,7 +33,7 @@ const WeatherPage = () => {
   return (
     <div>
       <form onSubmit={(e) => handleSubmit(e)}>
-        <input placeholder="Enter City" name="city" />
+        <input placeholder="Enter City" name="city" type="text" />
         <button type="search">Search</button>
       </form>
       {loading && <p>Loading data...</p>}
