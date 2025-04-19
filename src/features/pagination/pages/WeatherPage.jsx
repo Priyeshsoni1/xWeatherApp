@@ -53,7 +53,7 @@ const WeatherPage = () => {
         >
           {reportData.map((item, index) => {
             return (
-              <div key={index} className="weather-cards">
+              <div key={index} className="weather-card">
                 <div>{item.title}</div>
                 <div>{item.value}</div>
               </div>
